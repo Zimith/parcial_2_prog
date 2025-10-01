@@ -39,7 +39,7 @@ resultado = invertir_lista(lista)  # Devuelve [3, 2, 1]
 
 ## Ejercicios resueltos
 
--  Definición de Big O
+-  Definición de Big O y ejercicios
 -  Análisis de complejidad O(n²)
 -  Función O(n) para contar pares
 -  Implementación de Pila y Cola

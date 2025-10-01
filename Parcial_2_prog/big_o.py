@@ -19,3 +19,11 @@ def busqueda_binaria(lista, numero):
         else:
             der = medio - 1
     return -1
+
+
+"""
+Big o nos permite enteder que para una lista de 100 elementos, la busqueda lineal puede llegar a hacer 
+100 comparaciones en el peor de los casos, mientras que la busqueda binaria solo tendra 7 comparaciones 
+(2^7 = 128 > 100). Esto es especialmente util cuando trabajamos con listas muy grandes, ya que la diferencia en el 
+numero de comparaciones se vuelve significativa.
+"""
